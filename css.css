@@ -162,7 +162,7 @@ a,a:active,a:visited{
     padding-bottom: 30px;
 }
 
-@media screen and ( max-width:815px){
+@media screen and ( max-width:500px){
     div.container{
     width: 98%;
     height: 100%;
@@ -188,9 +188,27 @@ a,a:active,a:visited{
 }
 .img{
     height: 200px; 
+    width: 200px;
     overflow: hidden;
-    border-radius: 0px 0px 0px 70px;
-    margin-left: auto;
+    border-radius:50%;
+    margin: auto;
 }
 
+#pro , #skills{
+    min-height:100vh;
+    margin-top: 2px;
+    padding-top: 10px;
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten;
+    background-image: url(./src/back.jpg);
+    font-size: 1rem;
+}
+#pro p{
+    padding: 5px 5px;
+    margin: auto;
+    max-width:90% ;
+    text-wrap: wrap;
+    text-align: justify;
+    line-height: 2rem;
+}
 }
